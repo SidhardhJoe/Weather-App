@@ -22,11 +22,11 @@ export default function App() {
         <View style={styles.search_bar}>
           <TextInput
             style={styles.searchbar}
-            onChangeText={onChangeText}
+            onChangeText={onChangeText};
 
-            placeholder='Search'
-            placeholderTextColor="grey"
-            value={text}
+          placeholder='Search'
+          placeholderTextColor="grey"
+          value={text}
           />
           <TouchableOpacity onPress={() => fetchData()} >
             <Image source={require('./Images/search.png')}
