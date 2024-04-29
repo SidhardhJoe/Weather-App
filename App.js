@@ -6,7 +6,7 @@ export default function App() {
   const [text, onChangeText] = React.useState('');
   const [data, setData] = useState(null);
   async function fetchData() {
-    const apiUrl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${text}?unitGroup=metric&key=F6RQQ5THZ6QFFEP69BKLW8VYX&contentType=json`;
+    const apiUrl = `"ENTER YOUR API HERE"`;
     console.log("text", text);
     try {
       const response = await axios.get(apiUrl)
