@@ -1,7 +1,7 @@
 ﻿## Weather-App
  This is a simple Weather App designed using React-Native with Expo. I devloped this mainly to understand the working of API calling so i havent given much thought into the designing element.
  I have used Weather API for weather forcast, which is easily assessable in the internet.
- Although i have used API i have removed it from the final commit. Make sure to insert API before exceqution.
+ Although i have used API i have removed it from the final commit. Make sure to insert API before execution.
 
 
 ## Image
